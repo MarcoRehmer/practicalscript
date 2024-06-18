@@ -1,0 +1,13 @@
+name: deploy to VPS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: foo
+        run: |
+          "echo 'foo bar' >> echo.txt"
+          "scp echo.txt root@188.245.33.70"
