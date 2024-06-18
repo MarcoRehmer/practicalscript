@@ -10,4 +10,4 @@ jobs:
       - name: foo
         run: |
           echo 'foo bar' > echo.txt
-          scp echo.txt root@188.245.33.70
+          scp echo.txt root@188.245.33.70:./
