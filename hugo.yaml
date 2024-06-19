@@ -8,7 +8,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-mainsections: ["articles"]
+mainsections: ["posts"]
 
 minify:
   disableXML: true
@@ -22,7 +22,7 @@ languages:
       main:
         - identifier: blog
           name: Blog
-          url: /articles/
+          url: /posts/
           weight: 10
         - identifier: tags
           name: Tags
@@ -43,7 +43,7 @@ languages:
       main:
         - identifier: blog
           name: Beiträge
-          url: /articles/
+          url: /posts/
           weight: 10
         - identifier: tags
           name: Tags
@@ -63,7 +63,7 @@ params:
   keywords: [Blog, Developer, DevOps, Programming, Code]
   author: Marco Rehmer
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -87,11 +87,11 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    # favicon: "<link / abs url>"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Practical Script"
