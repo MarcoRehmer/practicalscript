@@ -12,10 +12,22 @@ jobs:
   
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: build
+      - uses: actions/checkout@v4
+        with:
+          submodules: true  # Fetch Hugo themes
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
         run: |
-          echo 'foo bar' > foobar.txt
+          hugo \
+            --minify \
+            --buildFuture \
+            --environment production \
+            --baseURL "https://practicalscript.com/"
       - name: Deploy
         run: |
           which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y  )
@@ -25,6 +37,6 @@ jobs:
           chmod 700 ~/.ssh
           ssh-keyscan $SERVER_IP >> ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
-          scp -r foobar.txt root@$SERVER_IP:/var/www/html
+          scp -r ./public/* root@$SERVER_IP:/var/www/html
     
 
