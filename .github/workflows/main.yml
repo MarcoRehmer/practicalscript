@@ -1,13 +1,18 @@
 name: Build and Deploy
 on:
-  push:
-    branches:
-      - master
+  #push:
+  #  branches:
+  #    - master
+  workflow_dispatch:
+  
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+      - name: build
+        run: |
+          echo 'foo bar' > foobar.txt
       - name: Deploy
         run: |
           which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y  )
@@ -18,8 +23,9 @@ jobs:
           chmod 700 ~/.ssh
           ssh-keyscan $SERVER_IP >> ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
-          scp -r * root@$SERVER_IP:/var/www/html
+          scp -r foobar.txt root@$SERVER_IP:/var/www/html
     env:
       SSH_PRIVATE_KEY: ${{secrets.SSH_KEY}}
       SERVER_IP: ${{secrets.SERVER_IP}}
       CI: false
+
