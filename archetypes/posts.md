@@ -1,6 +1,6 @@
 ---
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = {{ .Date }}
+date: { { .Date } }
 # aliases: ["/first"]
 tags: []
 author: "Marco Rehmer"
