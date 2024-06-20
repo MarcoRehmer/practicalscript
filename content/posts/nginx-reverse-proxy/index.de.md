@@ -1,5 +1,5 @@
 ---
-title: "Nginx Reverse Proxy"
+title: "Nginx Reverse Proxy aufsetzen + SSL Zertifikat"
 date: 2024-06-19T09:44:17Z
 aliases: ["/nginx-reverse-proxy"]
 tags: ["reverse proxy", "web server", "security"]
@@ -7,7 +7,7 @@ author: "Marco Rehmer"
 draft: false
 description: "Desc Text."
 cover:
-  image: "../images/cover.png"
+  image: "images/cover.png"
   alt: "NGINX Logo"
   relative: true
 ---
