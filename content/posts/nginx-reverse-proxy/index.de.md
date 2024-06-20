@@ -2,6 +2,9 @@
 title: "Nginx Reverse Proxy aufsetzen mit SSL"
 date: 2024-06-19T09:44:17Z
 draft: false
+cover:
+  image: "../images/cover.png" # image path/url
+  alt: "NGINX Logo" # alt text
 ---
 
 Nachfolgend werden die Schritte beschrieben, wie [NGINX](/posts/nginx) als [Reverse Proxy](/posts/reverse-proxy) unter Linux (z.B. Ubuntu) betrieben werden kann. Zusätzlich wird auch die Aktivierung von SSL/TLS beschrieben und ein Zertifikat von Lets Encrypt angefordert.

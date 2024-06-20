@@ -4,11 +4,11 @@ date: 2024-06-19T09:44:17Z
 # aliases: ["/first"]
 tags: ["post"]
 author: "Marco Rehmer"
-draft: true
+draft: false
 #description: "Desc Text."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-  image: "/cover.png" # image path/url
+  image: "../images/cover.png" # image path/url
   alt: "NGINX Logo" # alt text
   #relative: false # when using page bundles set this to true
 ---
