@@ -1,8 +1,8 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = {{ .Date }}
-# aliases: ["/first"]
-tags: []
+title: 'Let's Encrypt'
+date: 2024-06-20T16:45:00Z
+aliases: ["/lets-encrypt"]
+tags: ["security", "SSL/TLS", "certificates"]
 author: "Marco Rehmer"
 draft: true
 description: "Desc Text."
@@ -11,3 +11,5 @@ cover:
   alt: "<alt text>" # alt text
   relative: true # when using page bundles set this to true
 ---
+
+Content about Lets encrypt

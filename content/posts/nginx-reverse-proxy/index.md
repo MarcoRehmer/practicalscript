@@ -1,16 +1,15 @@
 ---
 title: "Nginx Reverse Proxy"
 date: 2024-06-19T09:44:17Z
-# aliases: ["/first"]
-tags: ["post"]
+aliases: ["/nginx-reverse-proxy"]
+tags: ["reverse proxy", "web server", "security"]
 author: "Marco Rehmer"
 draft: false
-#description: "Desc Text."
-#canonicalURL: "https://canonical.url/to/page"
+description: "Desc Text."
 cover:
   image: "../images/cover.png" # image path/url
   alt: "NGINX Logo" # alt text
-  #relative: false # when using page bundles set this to true
+  relative: true
 ---
 
 # Header 1
