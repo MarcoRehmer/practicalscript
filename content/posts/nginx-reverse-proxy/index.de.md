@@ -5,11 +5,10 @@ aliases: ["/nginx-reverse-proxy"]
 tags: ["reverse proxy", "web server", "security"]
 author: "Marco Rehmer"
 draft: false
-description: "Desc Text."
+summary: "Verwendung des NGINX Web Servers als Reverse Proxy und Integration von Let's Encrypt für SSL Zertifikate"
 cover:
-  image: "images/cover.png"
+  image: "images/nginx-logo.png"
   alt: "NGINX Logo"
-  relative: true
 ---
 
 Nachfolgend werden die Schritte beschrieben, wie [NGINX](/glossary/nginx) als [Reverse Proxy](/glossary/reverse-proxy) unter Linux (z.B. Ubuntu) betrieben werden kann. Zusätzlich wird auch die Aktivierung von SSL/TLS beschrieben und ein Zertifikat von Lets Encrypt angefordert.

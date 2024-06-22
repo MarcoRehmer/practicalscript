@@ -5,9 +5,9 @@ date: { { .Date } }
 tags: []
 author: "Marco Rehmer"
 draft: true
-description: "Desc Text."
+summary: "Desc Text."
 cover:
   image: "<image path/url>" # image path/url
   alt: "<alt text>" # alt text
-  relative: true # when using page bundles set this to true
+  relative: false # when using page bundles set this to true
 ---
