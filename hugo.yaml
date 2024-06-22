@@ -16,7 +16,8 @@ minify:
 
 languages:
   en:
-    languageName: "English"
+    languageCode: en-US
+    languageName: English
     weight: 1
     menu:
       main:
@@ -37,7 +38,8 @@ languages:
           weight: 40
 
   de:
-    languageName: "German"
+    languageCode: de-DE
+    languageName: Deutsch
     weight: 2
     menu:
       main:
