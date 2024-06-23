@@ -83,4 +83,4 @@ Easy, isn't it?
 
 ## Watch this Guide on YouTube
 
-{{ youtube ThzXpXDJS2M }}
+{{< youtube ThzXpXDJS2M >}}
