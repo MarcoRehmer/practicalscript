@@ -29,9 +29,9 @@ languages:
           name: Glossary
           url: /glossary/
           weight: 20
-        - name: Search
-          url: search/
-          weight: 30
+        # - name: Search
+        #   url: search/
+        #   weight: 30
         - identifier: About
           name: About
           url: /about
@@ -51,10 +51,10 @@ languages:
           name: Glossar
           url: /glossary/
           weight: 20
-        - identifier: Search
-          name: Suche
-          url: search/
-          weight: 30
+        # - identifier: Search
+        #   name: Suche
+        #   url: search/
+        #   weight: 30
         - identifier: About
           name: Über mich
           url: /about
