@@ -1,6 +1,6 @@
-baseURL: "https://practicalscript.com/"
+baseURL: "https://blog.practicalscript.com/"
 title: Practical Script
-copyright: "© 2024 [Marco Rehmer](https://practicalscript.com/about)"
+copyright: "© 2024 [Marco Rehmer](https://blog.practicalscript.com/about)"
 paginate: 10
 theme: PaperMod
 
@@ -25,9 +25,9 @@ languages:
           name: Blog
           url: /posts/
           weight: 10
-        - identifier: tags
-          name: Tags
-          url: /tags/
+        - identifier: glossary
+          name: Glossary
+          url: /glossary/
           weight: 20
         - name: Search
           url: search/
@@ -47,9 +47,9 @@ languages:
           name: Beiträge
           url: /posts/
           weight: 10
-        - identifier: tags
-          name: Tags
-          url: /tags/
+        - identifier: glossary
+          name: Glossar
+          url: /glossary/
           weight: 20
         - identifier: Search
           name: Suche
