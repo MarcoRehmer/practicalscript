@@ -1,7 +1,13 @@
 ---
 title: "NGINX Web Server"
 date: 2024-06-19T09:44:17Z
+aliases: ["/nginx"]
 draft: false
+tags: ["web server", "reverse proxy", "load balancer"]
+author: "Marco Rehmer"
+cover:
+  image: "images/nginx-logo.png"
+  alt: "NGINX Logo"
 ---
 
 NGINX is an open source web server, reverse proxy, load balancer, and HTTP cache in one. It is known for its high performance, stability, easy configuration, and low resource consumption. As a result, it is a popular tool and is used in many enterprise environments.
@@ -43,4 +49,4 @@ web:
 
 ## References
 
-- [Official website](https://nginx.org/)
+- [Official website⤴](https://nginx.org/)

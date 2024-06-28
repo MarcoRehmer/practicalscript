@@ -42,7 +42,7 @@ server {
 
 ## Zertifikat von Lets Encrypt anfodern
 
-Um ein Zertifikat von Lets Encrypt anzufordern muss sichergestellt werden, das die Ports 80 und 443 in der Firewall offen für Kommunikation sind.
+Um ein Zertifikat von [Let's Encrypt](/glossary/lets-encrypt) anzufordern muss sichergestellt werden, das die Ports 80 und 443 in der Firewall offen für Kommunikation sind.
 
 Falls noch nicht geschehen, muss der `certbot` und das passende [NGINX](/glossary/nginx)-Plugin installiert werden:
 

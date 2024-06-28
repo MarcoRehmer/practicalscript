@@ -42,7 +42,7 @@ server {
 
 ## Request a certificate from Lets Encrypt
 
-To request a certificate from Lets Encrypt, make sure that ports 80 and 443 in the firewall are open for communication.
+To request a certificate from [Let's Encrypt](/glossary/lets-encrypt), make sure that ports 80 and 443 in the firewall are open for communication.
 
 If not already done, the `certbot` and the appropriate [NGINX](/glossary/nginx) plugin must be installed:
 
