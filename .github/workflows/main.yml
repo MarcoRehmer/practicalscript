@@ -26,8 +26,7 @@ jobs:
           hugo \
             --minify \
             --buildFuture \
-            --environment production \
-      #            --baseURL "https://practicalscript.com/"
+            --environment production
       - name: Deploy
         run: |
           which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y  )

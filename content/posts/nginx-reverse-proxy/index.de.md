@@ -1,5 +1,5 @@
 ---
-title: "Nginx Reverse Proxy aufsetzen + SSL Zertifikat"
+title: "NGINX Reverse Proxy aufsetzen + SSL Zertifikat"
 date: 2024-06-19T09:44:17Z
 aliases: ["/nginx-reverse-proxy"]
 tags: ["reverse proxy", "web server", "security"]
