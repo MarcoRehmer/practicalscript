@@ -1,12 +1,10 @@
 baseURL: "https://blog.practicalscript.com/"
 title: Practical Script
-copyright: "© 2024 [Marco Rehmer](https://blog.practicalscript.com/about)"
+copyright: "© 2024 [Marco Rehmer](/about)"
 paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
-buildDrafts: true
-buildFuture: true
 buildExpired: true
 mainsections: ["posts"]
 
@@ -65,7 +63,7 @@ languages:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Practical Script - Blog"
-  description: Snackable help for busy Devs and DevOps
+  description: Learn DevOps. The practical way.
   keywords: [Blog, Developer, DevOps, Programming, Code]
   author: Marco Rehmer
   DateFormat: "January 2, 2006"
@@ -110,7 +108,7 @@ params:
   homeInfoParams:
     Title: Practical Script - Blog
     Content: >
-      Snackable Guides for Devs and DevOps
+      Learn DevOps. The practical way.
 
   # for search
   # https://fusejs.io/api/options.html

@@ -25,15 +25,15 @@ jobs:
         run: |
           hugo \
             --minify \
-            --buildFuture \
-            --environment production
-      - name: Deploy
-        run: |
-          which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y  )
-          eval $(ssh-agent -s)
-          ssh-add <(echo "$SSH_PRIVATE_KEY" )
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
-          ssh-keyscan $SERVER_IP >> ~/.ssh/known_hosts
-          chmod 644 ~/.ssh/known_hosts
-          scp -r ./public/* root@$SERVER_IP:/var/www/html
+            --environment production \
+            --baseUrl "https://blog.practicalscript.com/"
+      # - name: Deploy
+      #   run: |
+      #     which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y  )
+      #     eval $(ssh-agent -s)
+      #     ssh-add <(echo "$SSH_PRIVATE_KEY" )
+      #     mkdir -p ~/.ssh
+      #     chmod 700 ~/.ssh
+      #     ssh-keyscan $SERVER_IP >> ~/.ssh/known_hosts
+      #     chmod 644 ~/.ssh/known_hosts
+      #     scp -r ./public/* root@$SERVER_IP:/var/www/html
